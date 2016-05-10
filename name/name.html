@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>name</title>
+	<style type="text/css">
+		#d{
+			width: 300px;height: 200px;background: #369;margin:50px auto;border-radius:50px;font-size:33px;line-height:193px;text-align:center;
+		}
+		#s{
+			width: 40px;height: 20px;margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="d">click to begin</div>
+	<div id="s"><button onclick="fun()">begin</button></div>
+	<script type="text/javascript">
+	var a = new Array('a','aa','aaa','b','bb','bbb','c','cc','ccc','d','dd','ddd');
+	// var m = Math.ceil(Math.random()*100000)%len;
+	// d.innerHTML = a[m];
+	var as = document.getElementById('d');
+	var init = null;
+	var num = 0;
+	function fun(){
+		s.innerHTML = '<button onclick="funs()">stop</button>';
+		init = setInterval(func,33);
+		function func(){
+			if(init != null){
+				d.style.backgroundColor = 'pink';
+			}
+			var len = a.length;
+			m = Math.ceil(Math.random()*100000)%len;
+			d.innerHTML = a[m];
+		}
+	}
+	function funs(){
+		clearInterval(init);
+		s.innerHTML = '<button onclick="fun()">begin</button>';
+		a.splice(a[m],1);
+		// console.log(a);
+		init = null;
+	}
+	</script>
+</body>
+</html>

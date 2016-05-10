@@ -1,0 +1,69 @@
+*{margin:0;padding:0}
+img{border:0;}
+a{text-decoration:none;color:#333333;}
+ul li{list-style:none;}
+body,h1,h2,h3,h4,h5,h6{font:13.5px/1.5 宋体,微软雅黑;color:#333333;}
+
+.w{width:1261px;margin:0 auto;}
+.w1{width:1190px;margin:0 auto;}
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both}
+.center{text-align:center}
+.border{border:1px solid red;}
+.border_sssc{border:1px solid #E3E3E5;}
+.h1{height:32px;}
+.h2{height:31px;}
+.red{color:red}
+.white{color:#666666}
+.white1{color:#999999}
+.twhite{color:white;font-size:12px}
+
+#header{background:#F1F1F1;}
+#header .sssc{width:98px;height:33px;margin-left:30px;}
+#header .sez{width:98px;background:#B90000;}
+#header .sjyg{width:100px;height:31px;}
+#header .sjyg .sjyg_sj{width:8px;height:14px;margin-left:10px;margin-top:9px;background:url(../image/1.png) no-repeat scroll -152px -80px;}
+#header .sjyg .sjyg_wr{width:65px;height:32px;line-height:31px;}
+.sjyg_jt{width:9px;height:4px;margin-top:12px;background:url(../image/1.png) no-repeat scroll -177px -63px;}
+.sssc_w{line-height:32px;}
+.sez_w{line-height:32px;color:white;}
+.sjyg_w{line-height:32px;}
+#header .fl_gd{width:80px;line-height:31px;font-size:13px;}
+#header .fl_gd .fl_gd_w{width:30px}
+#header .fl_gg{width:60px;line-height:31px;font-size:13px;}
+#header .fl_gg .fl_gg_w{width:30px}
+#header .fl_wddd{width:100px;line-height:31px;font-size:13px;}
+#header .fl_wdyg{width:70px;line-height:31px;font-size:13px;}
+#header .fl_wdyg .fl_wdyg_w{width:60px}
+#header .fl_shu{width:40px;line-height:31px}
+#header .zhuce{width:30px;line-height:31px;}
+#header .zhuce .fl_zc{font-size:13px;color:red}
+#header .denglu{width:43px;line-height:31px}
+#header .denglu .fl_dengl{font-size:13px;color:red}
+
+#yhdl{height:50px;border-bottom:3px #F59E01 solid}
+.yhdl{width:990px;height:28px;margin:20px auto}
+.yhdl_w{line-height:28px;font-size:22px;}
+.yhdl_fh{line-height:28px;margin-left:100px}
+#main{width:970px;margin:40px auto;}
+.main_yh{height:35px;width:327px;}
+.main_mm{height:35px;width:327px;}
+.main_kb{height:20px;width:327px;}
+.tijiao{width:139px;height:50px;margin:30px 40px;margin-bottom:10px;;border:0px;background:url(../image/denglu.png) no-repeat scroll -146px -2px;}
+.main_wj{line-height:50px;}
+.main_l a{margin-left:50px}
+.main_r_t,.main_r_c{margin:15px;}
+.main_r{width:370px;height:170px;border-left:1px solid black;}
+.main_r_b{margin:20px 10px;width:127px;height:35px;background:url(../image/denglu.png) no-repeat scroll -4px -159px;}
+
+
+
+
+
+
+
+
+
+
+
